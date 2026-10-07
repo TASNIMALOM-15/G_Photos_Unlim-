@@ -1,0 +1,36 @@
+name: Analyze APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Decode manifest
+        run: |
+          zip -r -X ../app.apk . -x '.git/*' -x '.github/*'
+          wget -q https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar -O apktool.jar
+          java -jar apktool.jar d -s -f ../app.apk -o ../out
+          {
+            echo "== LIB =="; ls lib
+            echo "== SDK =="; grep -E 'minSdkVersion|targetSdkVersion' ../out/apktool.yml
+            echo "== PERMISSIONS =="; grep -o 'uses-permission[^>]*' ../out/AndroidManifest.xml
+            echo "== SERVICES =="; grep -o '<service[^>]*' ../out/AndroidManifest.xml
+          } > summary.txt
+          cp ../out/AndroidManifest.xml manifest.xml
+          cat summary.txt
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: analysis
+          path: |
+            summary.txt
+            manifest.xml
