@@ -9,21 +9,32 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: 17
-
-      - uses: android-actions/setup-android@v3
-
-      - name: Build
+      - name: Repack APK
         run: |
-          chmod +x gradlew
-          ./gradlew assembleDebug
+          BT=$(ls $ANDROID_HOME/build-tools | sort -V | tail -1)
+          TOOLS=$ANDROID_HOME/build-tools/$BT
+
+          mkdir ../work && rsync -a --exclude='.git' --exclude='.github' ./ ../work/
+          cd ../work
+
+          # পুরোনো signature মুছুন
+          rm -f META-INF/*.SF META-INF/*.RSA META-INF/*.DSA META-INF/*.EC
+
+          # resources.arsc ও lib আনকম্প্রেসড, বাকি সব কম্প্রেসড
+          zip -r -X -0 unsigned.apk resources.arsc lib
+          zip -r -X unsigned.apk . -x unsigned.apk -x resources.arsc -x 'lib/*'
+
+          $TOOLS/zipalign -p -f 4 unsigned.apk aligned.apk
+
+          keytool -genkeypair -keystore my.jks -storepass android -keypass android \
+            -alias key -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=App"
+
+          $TOOLS/apksigner sign --ks my.jks --ks-pass pass:android \
+            --out $GITHUB_WORKSPACE/app-signed.apk aligned.apk
 
       - uses: actions/upload-artifact@v4
         with:
-          name: app-debug
-          path: app/build/outputs/apk/debug/*.apk
+          name: app-signed
+          path: app-signed.apk
