@@ -1,0 +1,1594 @@
+{
+  "v": "5.10.0",
+  "fr": 60,
+  "ip": 0,
+  "op": 121,
+  "w": 1080,
+  "h": 1920,
+  "nm": "TEMPLATE_PAN_RIGHT_BLUR_FADE_TWO_TEXT_TWO_SEC",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "IMAGE_ASSET_1",
+      "w": {{IMAGE_ASSET_1_WIDTH}},
+      "h": {{IMAGE_ASSET_1_HEIGHT}},
+      "u": "images/",
+      "p": "IMAGE_ASSET_1",
+      "e": 0
+    }
+  ],
+  "fonts": {
+    "list": [
+      {
+        "origin": 0,
+        "fPath": "",
+        "fClass": "",
+        "fFamily": "{{TEXT_FONT_1_FAMILY}}",
+        "fWeight": {{TEXT_FONT_1_WEIGHT}},
+        "fStyle": "{{TEXT_FONT_1_STYLE}}",
+        "fName": "TEXT_FONT_1",
+        "ascent": 71.5988159179688
+      },
+      {
+        "origin": 0,
+        "fPath": "",
+        "fClass": "",
+        "fFamily": "{{TEXT_FONT_2_FAMILY}}",
+        "fWeight": {{TEXT_FONT_2_WEIGHT}},
+        "fStyle": "{{TEXT_FONT_2_STYLE}}",
+        "fName": "TEXT_FONT_2",
+        "ascent": 68.5989379882812
+      }
+    ]
+  },
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 5,
+      "nm": "TEXT_LAYER_1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 91,
+              "s": [
+                100
+              ]
+            },
+            {
+              "t": 121,
+              "s": [
+                0
+              ]
+            }
+          ],
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            320,
+            1450,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 29,
+          "nm": "Gaussian Blur",
+          "np": 5,
+          "mn": "ADBE Gaussian Blur 2",
+          "ix": 2,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Blurriness",
+              "mn": "ADBE Gaussian Blur 2-0001",
+              "ix": 1,
+              "v": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.833
+                      ],
+                      "y": [
+                        0.833
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167
+                      ],
+                      "y": [
+                        0.167
+                      ]
+                    },
+                    "t": 79,
+                    "s": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 121,
+                    "s": [
+                      111.1
+                    ]
+                  }
+                ],
+                "ix": 1
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Blur Dimensions",
+              "mn": "ADBE Gaussian Blur 2-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Repeat Edge Pixels",
+              "mn": "ADBE Gaussian Blur 2-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 3
+              }
+            }
+          ]
+        }
+      ],
+      "t": {
+        "d": {
+          "k": [
+            {
+              "s": {
+                "sz": [
+                  987.5,
+                  112.84375
+                ],
+                "ps": [
+                  -275.5,
+                  96.15625
+                ],
+                "s": {{TEXT_LAYER_1_FONT_SIZE}},
+                "f": "{{TEXT_LAYER_1_FONT_NAME}}",
+                "t": "{{TEXT_LAYER_1_TEXT}}",
+                "ca": 0,
+                "j": 0,
+                "tr": 0,
+                "lh": 132,
+                "ls": -36,
+                "fc": [
+                  1,
+                  1,
+                  1
+                ],
+                "vj": 2,
+                "rs": 0,
+                "m": 1,
+                "mc": 50,
+                "mf": 108,
+                "xf": 108,
+                "lj": 1,
+                "xl": 6
+              },
+              "t": 0
+            }
+          ]
+        },
+        "p": {},
+        "m": {
+          "g": 1,
+          "a": {
+            "a": 0,
+            "k": [
+              0,
+              0
+            ],
+            "ix": 2
+          }
+        },
+        "a": []
+      },
+      "ip": 0,
+      "op": 122,
+      "st": -132,
+      "ct": 1,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 5,
+      "nm": "TEXT_LAYER_2",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 91,
+              "s": [
+                100
+              ]
+            },
+            {
+              "t": 121,
+              "s": [
+                0
+              ]
+            }
+          ],
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            422,
+            1863,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 29,
+          "nm": "Gaussian Blur",
+          "np": 5,
+          "mn": "ADBE Gaussian Blur 2",
+          "ix": 2,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Blurriness",
+              "mn": "ADBE Gaussian Blur 2-0001",
+              "ix": 1,
+              "v": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.833
+                      ],
+                      "y": [
+                        0.833
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167
+                      ],
+                      "y": [
+                        0.167
+                      ]
+                    },
+                    "t": 79,
+                    "s": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 121,
+                    "s": [
+                      111.1
+                    ]
+                  }
+                ],
+                "ix": 1
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Blur Dimensions",
+              "mn": "ADBE Gaussian Blur 2-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Repeat Edge Pixels",
+              "mn": "ADBE Gaussian Blur 2-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 3
+              }
+            }
+          ]
+        }
+      ],
+      "t": {
+        "d": {
+          "k": [
+            {
+              "s": {
+                "sz": [
+                  984,
+                  61.84375
+                ],
+                "ps": [
+                  -374,
+                  -137.84375
+                ],
+                "s": {{TEXT_LAYER_2_FONT_SIZE}},
+                "f": "{{TEXT_LAYER_2_FONT_NAME}}",
+                "t": "{{TEXT_LAYER_2_TEXT}}",
+                "ca": 0,
+                "j": 0,
+                "tr": 0,
+                "lh": 84,
+                "ls": 0,
+                "fc": [
+                  1,
+                  1,
+                  1
+                ],
+                "vj": 0,
+                "rs": 0,
+                "m": 0,
+                "mc": 50,
+                "mf": 66,
+                "xf": 66,
+                "lj": 1,
+                "xl": 1
+              },
+              "t": 0
+            }
+          ]
+        },
+        "p": {},
+        "m": {
+          "g": 1,
+          "a": {
+            "a": 0,
+            "k": [
+              0,
+              0
+            ],
+            "ix": 2
+          }
+        },
+        "a": []
+      },
+      "ip": 0,
+      "op": 122,
+      "st": -132,
+      "ct": 1,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 4,
+      "nm": "grad",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 80,
+              "s": [
+                50
+              ]
+            },
+            {
+              "t": 121,
+              "s": [
+                0
+              ]
+            }
+          ],
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            540,
+            960,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "shapes": [
+        {
+          "ty": "rc",
+          "d": 1,
+          "s": {
+            "a": 0,
+            "k": [
+              1080,
+              1920
+            ],
+            "ix": 2
+          },
+          "p": {
+            "a": 0,
+            "k": [
+              0,
+              0
+            ],
+            "ix": 3
+          },
+          "r": {
+            "a": 0,
+            "k": 0,
+            "ix": 4
+          },
+          "nm": "Rectangle Path 1",
+          "mn": "ADBE Vector Shape - Rect",
+          "hd": false
+        },
+        {
+          "ty": "gf",
+          "o": {
+            "a": 0,
+            "k": 100,
+            "ix": 10
+          },
+          "r": 1,
+          "bm": 0,
+          "g": {
+            "p": 3,
+            "k": {
+              "a": 0,
+              "k": [
+                0,
+                0,
+                0,
+                0,
+                0.5,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0.243,
+                0,
+                0.429,
+                0.5,
+                0.954,
+                1
+              ],
+              "ix": 9
+            }
+          },
+          "s": {
+            "a": 0,
+            "k": [
+              0,
+              0
+            ],
+            "ix": 5
+          },
+          "e": {
+            "a": 0,
+            "k": [
+              0,
+              960
+            ],
+            "ix": 6
+          },
+          "t": 1,
+          "nm": "Gradient Fill 1",
+          "mn": "ADBE Vector Graphic - G-Fill",
+          "hd": false
+        }
+      ],
+      "ip": 0,
+      "op": 123,
+      "st": 0,
+      "ct": 1,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 2,
+      "nm": "IMAGE_LAYER_1",
+      "refId": "IMAGE_ASSET_1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            {{IMAGE_LAYER_1_POSITION_POINT_X}},
+            {{IMAGE_LAYER_1_POSITION_POINT_Y}},
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            {{IMAGE_LAYER_1_ANCHOR_POINT_X}},
+            {{IMAGE_LAYER_1_ANCHOR_POINT_Y}},
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [{{IMAGE_LAYER_1_SCALE}}, {{IMAGE_LAYER_1_SCALE}}, 100],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "2D PAN RIGHT",
+          "np": 14,
+          "mn": "ADBE Geometry2",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 3,
+              "nm": "Anchor Point",
+              "mn": "ADBE Geometry2-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": [540, 960],
+                "ix": 1
+              }
+            },
+            {
+              "ty": 3,
+              "nm": "Position",
+              "mn": "ADBE Geometry2-0002",
+              "ix": 2,
+              "v": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": 0.833,
+                      "y": 0.833
+                    },
+                    "o": {
+                      "x": 0.167,
+                      "y": 0.167
+                    },
+                    "t": 0,
+                    "s": [540, 960],
+                    "to": [-6.667, 0],
+                    "ti": [6.667, 0]
+                  },
+                  {
+                    "t": 121,
+                    "s": [500, 960]
+                  }
+                ],
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Uniform Scale",
+              "mn": "ADBE Geometry2-0011",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 3
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Scale",
+              "mn": "ADBE Geometry2-0003",
+              "ix": 4,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 4
+              }
+            },
+            {
+              "ty": 0,
+              "nm": " ",
+              "mn": "ADBE Geometry2-0004",
+              "ix": 5,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Skew",
+              "mn": "ADBE Geometry2-0005",
+              "ix": 6,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Skew Axis",
+              "mn": "ADBE Geometry2-0006",
+              "ix": 7,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 7
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Rotation",
+              "mn": "ADBE Geometry2-0007",
+              "ix": 8,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 8
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Opacity",
+              "mn": "ADBE Geometry2-0008",
+              "ix": 9,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 9
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Use Composition’s Shutter Angle",
+              "mn": "ADBE Geometry2-0009",
+              "ix": 10,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 10
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Shutter Angle",
+              "mn": "ADBE Geometry2-0010",
+              "ix": 11,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 11
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Sampling",
+              "mn": "ADBE Geometry2-0012",
+              "ix": 12,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 12
+              }
+            }
+          ]
+        },
+        {
+          "ty": 29,
+          "nm": "TRANSITION_OUT_BLUR",
+          "np": 5,
+          "mn": "ADBE Gaussian Blur 2",
+          "ix": 4,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Blurriness",
+              "mn": "ADBE Gaussian Blur 2-0001",
+              "ix": 1,
+              "v": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [0.883],
+                      "y": [1]
+                    },
+                    "o": {
+                      "x": [0.167],
+                      "y": [0]
+                    },
+                    "t": 101,
+                    "s": [0]
+                  },
+                  {
+                    "t": 121,
+                    "s": [100]
+                  }
+                ],
+                "ix": 1
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Blur Dimensions",
+              "mn": "ADBE Gaussian Blur 2-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Repeat Edge Pixels",
+              "mn": "ADBE Gaussian Blur 2-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 3
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "TRANSITION_OUT_FADE",
+          "np": 14,
+          "mn": "ADBE Geometry2",
+          "ix": 5,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 3,
+              "nm": "Anchor Point",
+              "mn": "ADBE Geometry2-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": [540, 960],
+                "ix": 1
+              }
+            },
+            {
+              "ty": 3,
+              "nm": "Position",
+              "mn": "ADBE Geometry2-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": [540, 960],
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Uniform Scale",
+              "mn": "ADBE Geometry2-0011",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 3
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Scale Height",
+              "mn": "ADBE Geometry2-0003",
+              "ix": 4,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 4
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Scale Width",
+              "mn": "ADBE Geometry2-0004",
+              "ix": 5,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Skew",
+              "mn": "ADBE Geometry2-0005",
+              "ix": 6,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Skew Axis",
+              "mn": "ADBE Geometry2-0006",
+              "ix": 7,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 7
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Rotation",
+              "mn": "ADBE Geometry2-0007",
+              "ix": 8,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 8
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Opacity",
+              "mn": "ADBE Geometry2-0008",
+              "ix": 9,
+              "v": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [0.833],
+                      "y": [0.833]
+                    },
+                    "o": {
+                      "x": [0.167],
+                      "y": [0.167]
+                    },
+                    "t": 91,
+                    "s": [100]
+                  },
+                  {
+                    "t": 121,
+                    "s": [30]
+                  }
+                ],
+                "ix": 9
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Use Composition’s Shutter Angle",
+              "mn": "ADBE Geometry2-0009",
+              "ix": 10,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 10
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Shutter Angle",
+              "mn": "ADBE Geometry2-0010",
+              "ix": 11,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 11
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Sampling",
+              "mn": "ADBE Geometry2-0012",
+              "ix": 12,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 12
+              }
+            }
+          ]
+        }
+      ],
+      "ip": 0,
+      "op": 121,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 2,
+      "nm": "IMAGE_LAYER_2",
+      "refId": "IMAGE_ASSET_1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            {{IMAGE_LAYER_2_POSITION_POINT_X}},
+            {{IMAGE_LAYER_2_POSITION_POINT_Y}},
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            {{IMAGE_LAYER_2_ANCHOR_POINT_X}},
+            {{IMAGE_LAYER_2_ANCHOR_POINT_Y}},
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [{{IMAGE_LAYER_2_SCALE}}, {{IMAGE_LAYER_2_SCALE}}, 100],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "2D PAN RIGHT",
+          "np": 14,
+          "mn": "ADBE Geometry2",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 3,
+              "nm": "Anchor Point",
+              "mn": "ADBE Geometry2-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": [540, 960],
+                "ix": 1
+              }
+            },
+            {
+              "ty": 3,
+              "nm": "Position",
+              "mn": "ADBE Geometry2-0002",
+              "ix": 2,
+              "v": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": 0.833,
+                      "y": 0.833
+                    },
+                    "o": {
+                      "x": 0.167,
+                      "y": 0.167
+                    },
+                    "t": 0,
+                    "s": [540, 960],
+                    "to": [-6.667, 0],
+                    "ti": [6.667, 0]
+                  },
+                  {
+                    "t": 121,
+                    "s": [500, 960]
+                  }
+                ],
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Uniform Scale",
+              "mn": "ADBE Geometry2-0011",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 3
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Scale",
+              "mn": "ADBE Geometry2-0003",
+              "ix": 4,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 4
+              }
+            },
+            {
+              "ty": 0,
+              "nm": " ",
+              "mn": "ADBE Geometry2-0004",
+              "ix": 5,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Skew",
+              "mn": "ADBE Geometry2-0005",
+              "ix": 6,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Skew Axis",
+              "mn": "ADBE Geometry2-0006",
+              "ix": 7,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 7
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Rotation",
+              "mn": "ADBE Geometry2-0007",
+              "ix": 8,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 8
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Opacity",
+              "mn": "ADBE Geometry2-0008",
+              "ix": 9,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 9
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Use Composition’s Shutter Angle",
+              "mn": "ADBE Geometry2-0009",
+              "ix": 10,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 10
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Shutter Angle",
+              "mn": "ADBE Geometry2-0010",
+              "ix": 11,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 11
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Sampling",
+              "mn": "ADBE Geometry2-0012",
+              "ix": 12,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 12
+              }
+            }
+          ]
+        },
+        {
+          "ty": 29,
+          "nm": "TRANSITION_OUT_BLUR",
+          "np": 5,
+          "mn": "ADBE Gaussian Blur 2",
+          "ix": 4,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Blurriness",
+              "mn": "ADBE Gaussian Blur 2-0001",
+              "ix": 1,
+              "v": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [0.883],
+                      "y": [1]
+                    },
+                    "o": {
+                      "x": [0.167],
+                      "y": [0]
+                    },
+                    "t": 101,
+                    "s": [0]
+                  },
+                  {
+                    "t": 121,
+                    "s": [100]
+                  }
+                ],
+                "ix": 1
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Blur Dimensions",
+              "mn": "ADBE Gaussian Blur 2-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Repeat Edge Pixels",
+              "mn": "ADBE Gaussian Blur 2-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 3
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "TRANSITION_OUT_FADE",
+          "np": 14,
+          "mn": "ADBE Geometry2",
+          "ix": 5,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 3,
+              "nm": "Anchor Point",
+              "mn": "ADBE Geometry2-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": [540, 960],
+                "ix": 1
+              }
+            },
+            {
+              "ty": 3,
+              "nm": "Position",
+              "mn": "ADBE Geometry2-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": [540, 960],
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Uniform Scale",
+              "mn": "ADBE Geometry2-0011",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 3
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Scale Height",
+              "mn": "ADBE Geometry2-0003",
+              "ix": 4,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 4
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Scale Width",
+              "mn": "ADBE Geometry2-0004",
+              "ix": 5,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Skew",
+              "mn": "ADBE Geometry2-0005",
+              "ix": 6,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Skew Axis",
+              "mn": "ADBE Geometry2-0006",
+              "ix": 7,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 7
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Rotation",
+              "mn": "ADBE Geometry2-0007",
+              "ix": 8,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 8
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Opacity",
+              "mn": "ADBE Geometry2-0008",
+              "ix": 9,
+              "v": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [0.833],
+                      "y": [0.833]
+                    },
+                    "o": {
+                      "x": [0.167],
+                      "y": [0.167]
+                    },
+                    "t": 91,
+                    "s": [100]
+                  },
+                  {
+                    "t": 121,
+                    "s": [30]
+                  }
+                ],
+                "ix": 9
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Use Composition’s Shutter Angle",
+              "mn": "ADBE Geometry2-0009",
+              "ix": 10,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 10
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Shutter Angle",
+              "mn": "ADBE Geometry2-0010",
+              "ix": 11,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 11
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Sampling",
+              "mn": "ADBE Geometry2-0012",
+              "ix": 12,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 12
+              }
+            }
+          ]
+        },
+        {
+          "ty": 29,
+          "nm": "BLUR",
+          "np": 5,
+          "mn": "ADBE Gaussian Blur 2",
+          "ix": 6,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Blurriness",
+              "mn": "ADBE Gaussian Blur 2-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 400,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Blur Dimensions",
+              "mn": "ADBE Gaussian Blur 2-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Repeat Edge Pixels",
+              "mn": "ADBE Gaussian Blur 2-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 3
+              }
+            }
+          ]
+        }
+      ],
+      "ip": 0,
+      "op": 121,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 1,
+      "nm": "bg",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [540, 960, 0],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [540, 960, 0],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [100, 100, 100],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "sw": 1080,
+      "sh": 1920,
+      "sc": "#000000",
+      "ip": 0,
+      "op": 121,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

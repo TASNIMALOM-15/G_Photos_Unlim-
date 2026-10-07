@@ -1,0 +1,8 @@
+
+°
+¥AudioDecoderCalculator"AUDIO:input_audio*FILENAME:input_file* START_SECONDS:start_time_seconds*END_SECONDS:end_time_seconds2!DURATION_SECONDS:duration_seconds2#SAMPLE_RATE_HZ:original_sample_rateBD
+<type.googleapis.com/xeno.audio.AudioDecoderCalculatorOptionsrAudioDecodingExecutor
+„#AudioWaveformNumIntervalsCalculatorAUDIO:input_audio*NUM_OUTPUT_BARS:num_output_bars2)NUM_INTERVALS:dynamic_power_num_intervals
+±AudioPowerCalculatorAUDIO:input_audio"OUTPUT:power_output*#SAMPLE_RATE_HZ:original_sample_rate*!DURATION_SECONDS:duration_seconds*)NUM_INTERVALS:dynamic_power_num_intervalsrZ
+AudioDecodingExecutorThreadPoolExecutor-š™­×'öÿÿÿÿÿÿÿÿ *audio_decoder_executor‚
+input_file‚NUM_OUTPUT_BARS:num_output_bars‚ START_SECONDS:start_time_seconds‚END_SECONDS:end_time_seconds

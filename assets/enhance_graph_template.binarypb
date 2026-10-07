@@ -1,0 +1,6 @@
+
+™
+™VideoDecoderCalculator"VIDEO:gpu_buffer_frame*FILENAME:video_file_pathBM
+<type.googleapis.com/xeno.audio.VideoDecoderCalculatorOptions333333Ó?0H
+IGpuBufferToImageFrameCalculatorgpu_buffer_frame"gpu_buffer_frame_cpu
+˜EnhanceParametersCalculator INPUT_IMAGE:gpu_buffer_frame_cpu"EXPOSURE:exposure"CONTRAST:contrast"HIGHLIGHTS:highlights"SHADOWS:shadows"WHITE_POINT:white_point"BLACK_POINT:black_point"SATURATION:saturation"TEMPERATURE:temperature"	TINT:tint")SATURATION_SKIN_TONE:saturation_skin_tone")SATURATION_DEEP_BLUE:saturation_deep_blue"LIGHT_STRENGTH:light_strength"COLOR_STRENGTH:color_strength"POP_STRENGTH:pop_strength"#VIGNETTE_CENTER_X:vignette_center_x"#VIGNETTE_CENTER_Y:vignette_center_y"#VIGNETTE_STRENGTH:vignette_strength@XÈ‚video_file_path

@@ -1,0 +1,168 @@
+{
+  "v": "5.9.0",
+  "fr": 30,
+  "ip": 0,
+  "op": 150,
+  "w": 2160,
+  "h": 3840,
+  "nm": "Comp 1",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "IMAGE_ASSET_1",
+      "w": {{IMAGE_ASSET_1_WIDTH}},
+      "h": {{IMAGE_ASSET_1_HEIGHT}},
+      "u": "images/",
+      "p": "IMAGE_ASSET_1",
+      "e": 0
+    }
+  ],
+  "fonts": {
+    "list": [
+      {
+        "fName": "TEXT_FONT_1",
+        "fFamily": "{{TEXT_FONT_1_FAMILY}}",
+        "fStyle": "{{TEXT_FONT_1_STYLE}}",
+        "ascent": 71.8994140625
+      }
+    ]
+  },
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 5,
+      "nm": "TEXT_LAYER_1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0.833], "y": [0.833] },
+              "o": { "x": [0.167], "y": [0.167] },
+              "t": 90,
+              "s": [100]
+            },
+            { "t": 149, "s": [3] }
+          ],
+          "ix": 11
+        },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": {
+          "a": 0,
+          "k": [
+            {{TEXT_LAYER_1_POSITION_POINT_X}},
+            {{TEXT_LAYER_1_POSITION_POINT_Y}},
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            {{TEXT_LAYER_1_ANCHOR_POINT_X}},
+            {{TEXT_LAYER_1_ANCHOR_POINT_Y}},
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": { "a": 0, "k": [101.055, 100, 100], "ix": 6, "l": 2 }
+      },
+      "ao": 0,
+      "t": {
+        "d": {
+          "k": [
+            {
+              "s": {
+                "s": {{TEXT_LAYER_1_FONT_SIZE}},
+                "f": "{{TEXT_LAYER_1_FONT_NAME}}",
+                "t": "{{TEXT_LAYER_1_TEXT}}",
+                "ca": 0,
+                "j": 0,
+                "tr": 0,
+                "lh": 235.200012207031,
+                "ls": 0,
+                "fc": "{{COLOR_LAYER_1_COLOR}}"
+              },
+              "t": 0
+            }
+          ]
+        },
+        "p": {},
+        "m": { "g": 1, "a": { "a": 0, "k": [0, 0], "ix": 2 } },
+        "a": []
+      },
+      "ip": 0,
+      "op": 150,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 2,
+      "nm": "IMAGE_LAYER_1",
+      "cl": "jpg",
+      "refId": "IMAGE_ASSET_1",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": {
+          "a": 0,
+          "k": [
+            {{IMAGE_LAYER_1_POSITION_POINT_X}},
+            {{IMAGE_LAYER_1_POSITION_POINT_Y}},
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            {{IMAGE_LAYER_1_ANCHOR_POINT_X}},
+            {{IMAGE_LAYER_1_ANCHOR_POINT_Y}},
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": { "x": [0.833, 0.833, 0.833], "y": [0.833, 0.833, 0.833] },
+              "o": { "x": [0.167, 0.167, 0.167], "y": [0.167, 0.167, 0.167] },
+              "t": 0,
+              "s": [
+                {{IMAGE_LAYER_1_KEY_FRAME_0_SCALE}},
+                {{IMAGE_LAYER_1_KEY_FRAME_0_SCALE}},
+                100
+              ]
+            },
+            {
+              "t": 149,
+              "s": [
+                {{IMAGE_LAYER_1_KEY_FRAME_149_SCALE}},
+                {{IMAGE_LAYER_1_KEY_FRAME_149_SCALE}},
+                100
+              ]
+            }
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 150,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}
